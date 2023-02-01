@@ -1,0 +1,13 @@
+[package]
+name = "skinhash"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+
+lodepng = { version = "3.7.2", default-features = false }
+flate2 = { package = "flate2", version = "1.0.20", features = ["zlib"], default-features = false }
+rgb = "0.8.27"
+bytes = "1.0.1"
+sha2 = "0.10.6"
